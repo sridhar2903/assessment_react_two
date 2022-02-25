@@ -1,0 +1,92 @@
+#headstyle
+{
+    text-align: center;
+
+}
+
+#emp
+{
+    text-align: center;
+}
+
+#name
+{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    background-color:blanchedalmond;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+}
+#dept
+{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    background-color:blanchedalmond;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    
+}
+#rating
+{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    background-color:blanchedalmond;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+#sub
+{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color:blanchedalmond;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#details
+{
+    margin-left: 40px;
+    font-size: larger;
+    background-color: hotpink;
+    padding: 30px 30px 30px 30px;
+    border-radius: 20px;
+    margin: auto;
+    
+   
+  
+}
+#flex
+{
+    background-color: blanchedalmond;
+    margin: 50px 50px 50px 50px;
+    padding: 20px 20px 20px 20px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+#namestyle
+{
+    font-size: larger;
+    font-weight: bolder;
+}
+#deptstyle
+{
+    font-size: larger;
+    font-weight: bolder;
+}
+#ratestyle
+{
+    font-size: larger;
+    font-weight: bolder;
+}
