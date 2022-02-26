@@ -34,14 +34,14 @@ class Maincomponent extends React.Component{
         return (
             <>
              <h1 id="headstyle">EMPLOYEE FEEDBACK FORM</h1>
-             <form id='emp'>
+             <form id='emp' onSubmit={this.onsubmit}>
                  <label for="name" id="namestyle">Name:</label>
              <input type="text" id='name' name='name' onChange={this.updateinput}  placeholder=''value={this.state.name} required/><br></br><br></br>
              <label for="dept" id="deptstyle">Department:</label>
              <input type="text" id='dept' name='department' onChange={this.updateinput} placeholder='' value={this.state.department} required/><br></br><br></br>
              <label for="rating" id="ratestyle">Rating:</label>
              <input type="number" id='rating' name='rating' onChange={this.updateinput} placeholder='' value={this.state.rating} required/><br></br><br></br>
-             <button id="sub" onClick={this.onsubmit}>Submit</button><br></br><br></br>
+             <button id="sub" >Submit</button><br></br><br></br>
 
              </form>
           <div id="flex">
