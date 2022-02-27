@@ -1,20 +1,24 @@
 #headstyle
 {
-    text-align: center;
+   
+    font-family: 'Roboto', sans-serif;
+  background-color:lightcyan;
+  display: inline;
+  
 
 }
-
-#emp
+#center
 {
     text-align: center;
 }
+
 
 #name
 {
     height: 50px;
-    width: 200px;
-    border-radius: 30px;
-    background-color:blanchedalmond;
+    width: 450px;
+ 
+
     text-align: center;
     font-weight: bolder;
     font-size: large;
@@ -22,9 +26,9 @@
 #dept
 {
     height: 50px;
-    width: 200px;
-    border-radius: 30px;
-    background-color:blanchedalmond;
+    width: 450px;
+   
+   
     text-align: center;
     font-weight: bolder;
     font-size: large;
@@ -33,9 +37,9 @@
 #rating
 {
     height: 50px;
-    width: 200px;
-    border-radius: 30px;
-    background-color:blanchedalmond;
+    width: 450px;
+ 
+  
     text-align: center;
     font-weight: bolder;
     font-size: large;
@@ -44,21 +48,29 @@
 #sub
 {
     height: 50px;
-    width: 150px;
-    border-radius: 20px;
-    background-color:blanchedalmond;
+    width: 100px;
+    color: white;
+    background-color:#007bff;
+    border: #007bff;
     font-size: larger;
     font-weight: bolder;
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
 }
-
+#sub:hover
+{
+    /* filter: brightness(90%); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0 0);
+  
+}
 #details
 {
     /* margin-left: 40px; */
     font-size: larger;
-    background-color: hotpink;
+    background-color:lightslategray;
     padding: 30px 30px 30px 30px;
     border-radius: 20px;
+    color: white;
     /* margin: auto; */
     
    
@@ -76,18 +88,29 @@
     gap: 30px;
     justify-content: center;
 }
-#namestyle
+#namestyle 
 {
     font-size: larger;
     font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
 }
 #deptstyle
 {
     font-size: larger;
     font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
 }
 #ratestyle
 {
     font-size: larger;
     font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+#containerform
+{
+    background-color:whitesmoke;
+    height: 500px;
+    width: 500px;
+    /* text-align: center; */
+    margin: auto;
 }
